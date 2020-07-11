@@ -1,0 +1,47 @@
+{
+    "child_msg" : ["Want to hear a joke ?","What about some news ?","Wanna get motivated ?","Terminate chat"],
+    "children" : [
+      {
+        "child_msg" : ["Funny Joke","Very funny Joke","PJ :)","Terminate chat"],
+        "children" : [
+          {
+            "message" : "getJoke()",
+            "type" : "function"
+          },
+          {
+            "message" : "Santa Banta Ha Ha Ha",
+            "type" : "normal"
+          },
+          {
+            "message" : "Banta Santa",
+            "type" : "normal"
+          }
+        ]
+      },
+      {
+        "child_msg" : ["World News","Art News","Science News","Terminate chat"],
+        "children" : [
+          {
+            "message" : "getNews(0)",
+            "type" : "function"
+            
+          },
+          {
+            "message" : "getNews(1)",
+            "type" : "function"
+            
+          },{
+            "message" : "getNews(2)",
+            "type" : "function"
+            
+          }
+
+         
+        ]
+      },
+      {
+        "message" : "getquote()",
+        "type":"function"
+      }
+    ]
+  }
