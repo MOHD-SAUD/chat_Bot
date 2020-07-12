@@ -1,2 +1,2 @@
 # ChatBot
-Developed a chatbot using JavaScript
+Developed a chatbot using JavaScript and used Necesssary APIs
